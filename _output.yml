@@ -1,5 +1,5 @@
-bookdown::html_book: default
 bookdown::gitbook:
+  css: style.css
   config:
     download: ["pdf", "epub"]
   split_by: "rmd"

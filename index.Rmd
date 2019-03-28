@@ -1,21 +1,21 @@
 ---
 title: "How to use the URL data source"
-output: pdf_document
 ---
-
 
 # Get the URL of your JSON data
 
+For this example, we're using the [NICVA Marine Litter Survey](https://dbhub.io/nicva/Marine%20Litter%20Survey%20(Keep%20Northern%20Ireland%20Beautiful).sqlite) database.
+
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/000_dbhub_source_database1.png")
+knitr::include_graphics("images/000_dbhub_source_database1.png")
 ```
 
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/010_dbhub_source_database2.png")
+knitr::include_graphics("images/010_dbhub_source_database2.png")
 ```
 
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/020_dbhub_source_database3.png")
+knitr::include_graphics("images/020_dbhub_source_database3.png")
 ```
 
 # Login to Redash, head to the Data Sources Settings
