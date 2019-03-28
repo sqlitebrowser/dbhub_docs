@@ -7,115 +7,141 @@ output: pdf_document
 # Get the URL of your JSON data
 
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/dbhub_source_database1.png")
+knitr::include_graphics("raw_screenshots/000_dbhub_source_database1.png")
 ```
 
-
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/redash_welcome_page2.png")
+knitr::include_graphics("raw_screenshots/010_dbhub_source_database2.png")
 ```
 
-
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/dbhub_source_database2.png")
+knitr::include_graphics("raw_screenshots/020_dbhub_source_database3.png")
 ```
 
+# Login to Redash, head to the Data Sources Settings
 
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/dbhub_source_database2.png")
+knitr::include_graphics("raw_screenshots/030_redash_welcome_page1.png")
 ```
 
-
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/dbhub_source_database3.png")
+knitr::include_graphics("raw_screenshots/040_redash_welcome_page2.png")
 ```
 
+# Create a new Data Source
 
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/redash_welcome_page1.png")
+knitr::include_graphics("raw_screenshots/050_redash_new_data_source0.png")
 ```
 
+## Choose the "URL" data source type
 
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/redash_new_data_source0.png")
+knitr::include_graphics("raw_screenshots/060_redash_new_data_source1.png")
 ```
 
-
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/redash_new_data_source1.png")
+knitr::include_graphics("raw_screenshots/070_redash_new_data_source2.png")
 ```
 
+# Fill out the details for the data source
+
+## Give the data source a name, and paste in the URL for it
 
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/redash_new_data_source2.png")
+knitr::include_graphics("raw_screenshots/080_redash_new_data_source_url1.png")
 ```
 
+## Click Save, then head back to the main Data Source Settings section
 
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/redash_new_data_source3.png")
+knitr::include_graphics("raw_screenshots/090_redash_new_data_source_url2.png")
 ```
 
+# Create another new Data Source
 
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/redash_new_data_source_url1.png")
+knitr::include_graphics("raw_screenshots/100_redash_data_sources2.png")
 ```
 
+## This time, choose the "Query" data source type
 
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/redash_new_data_source_url2.png")
+knitr::include_graphics("raw_screenshots/070_redash_new_data_source2.png")
 ```
 
+## This one just needs a name so you can refer to it later.  Choose something obvious.
 
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/redash_data_sources2.png")
+knitr::include_graphics("raw_screenshots/110_redash_new_data_source_query_mapper1.png")
 ```
 
+## Click Save, then create a new "Query"
 
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/redash_new_data_source_query_mapper1.png")
+knitr::include_graphics("raw_screenshots/120_redash_new_data_source_query_mapper2.png")
 ```
 
+# Create the Source query
+
+This query just retrieves the data from the URL data source you set up earlier.
+
+## Give it an (obvious) name
 
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/redash_new_data_source_query_mapper2.png")
+knitr::include_graphics("raw_screenshots/130_redash_new_query_select_data_source1.png")
 ```
 
+## Select the URL data source you created earlier.  Not the "Query" one.
 
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/redash_new_query_select_data_source1.png")
+knitr::include_graphics("raw_screenshots/140_redash_new_query_select_data_source2.png")
 ```
 
+## Save the query
+
+After the Save button is clicked, the address for this query should change in your browser
+to include a number.
+
+Make a note of this number, as we'll be using it in the next step.
 
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/redash_new_query_select_data_source2.png")
+knitr::include_graphics("raw_screenshots/150_redash_new_query_select_data_source3.png")
 ```
 
+## Create a new query
 
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/redash_new_query_select_data_source3.png")
+knitr::include_graphics("raw_screenshots/160_redash_new_query_select_data_source4.png")
 ```
 
+# Create the visualisation query
+
+## Give it a name
 
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/redash_new_query_select_data_source4.png")
+knitr::include_graphics("raw_screenshots/170_redash_new_query2_select_data_source1.png")
 ```
 
+## Select the "Query" data source created earlier
 
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/redash_new_query2_select_data_source1.png")
+knitr::include_graphics("raw_screenshots/180_redash_new_query2_select_data_source2.png")
 ```
 
+## Add the SQL for extracting the information you want
+
+Take special notice of line **2** of the SQL in the screenshot.  It says `FROM query_1`.  The
+number `1` on the end of `query_1` is the number of the saved query you generated in the
+previous step.  So, if the number in the previous step for you was (say) 234, your query will
+need a `FROM` clause saying `FROM query_234`.
 
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/redash_new_query2_select_data_source2.png")
+knitr::include_graphics("raw_screenshots/190_redash_new_query2_select_data_source3.png")
 ```
 
+## Click Execute, which should then retrieve and display your raw data in the table below
 
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/redash_new_query2_select_data_source3.png")
-```
-
-
-```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/redash_new_query2_select_data_source4.png")
+knitr::include_graphics("raw_screenshots/200_redash_new_query2_select_data_source4.png")
 ```
