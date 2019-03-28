@@ -1,0 +1,121 @@
+---
+title: "How to use the URL data source"
+output: pdf_document
+---
+
+
+# Get the URL of your JSON data
+
+```{r, echo = FALSE, fig.align='center', out.width='90%'}
+knitr::include_graphics("raw_screenshots/dbhub_source_database1.png")
+```
+
+
+```{r, echo = FALSE, fig.align='center', out.width='90%'}
+knitr::include_graphics("raw_screenshots/redash_welcome_page2.png")
+```
+
+
+```{r, echo = FALSE, fig.align='center', out.width='90%'}
+knitr::include_graphics("raw_screenshots/dbhub_source_database2.png")
+```
+
+
+```{r, echo = FALSE, fig.align='center', out.width='90%'}
+knitr::include_graphics("raw_screenshots/dbhub_source_database2.png")
+```
+
+
+```{r, echo = FALSE, fig.align='center', out.width='90%'}
+knitr::include_graphics("raw_screenshots/dbhub_source_database3.png")
+```
+
+
+```{r, echo = FALSE, fig.align='center', out.width='90%'}
+knitr::include_graphics("raw_screenshots/redash_welcome_page1.png")
+```
+
+
+```{r, echo = FALSE, fig.align='center', out.width='90%'}
+knitr::include_graphics("raw_screenshots/redash_new_data_source0.png")
+```
+
+
+```{r, echo = FALSE, fig.align='center', out.width='90%'}
+knitr::include_graphics("raw_screenshots/redash_new_data_source1.png")
+```
+
+
+```{r, echo = FALSE, fig.align='center', out.width='90%'}
+knitr::include_graphics("raw_screenshots/redash_new_data_source2.png")
+```
+
+
+```{r, echo = FALSE, fig.align='center', out.width='90%'}
+knitr::include_graphics("raw_screenshots/redash_new_data_source3.png")
+```
+
+
+```{r, echo = FALSE, fig.align='center', out.width='90%'}
+knitr::include_graphics("raw_screenshots/redash_new_data_source_url1.png")
+```
+
+
+```{r, echo = FALSE, fig.align='center', out.width='90%'}
+knitr::include_graphics("raw_screenshots/redash_new_data_source_url2.png")
+```
+
+
+```{r, echo = FALSE, fig.align='center', out.width='90%'}
+knitr::include_graphics("raw_screenshots/redash_data_sources2.png")
+```
+
+
+```{r, echo = FALSE, fig.align='center', out.width='90%'}
+knitr::include_graphics("raw_screenshots/redash_new_data_source_query_mapper1.png")
+```
+
+
+```{r, echo = FALSE, fig.align='center', out.width='90%'}
+knitr::include_graphics("raw_screenshots/redash_new_data_source_query_mapper2.png")
+```
+
+
+```{r, echo = FALSE, fig.align='center', out.width='90%'}
+knitr::include_graphics("raw_screenshots/redash_new_query_select_data_source1.png")
+```
+
+
+```{r, echo = FALSE, fig.align='center', out.width='90%'}
+knitr::include_graphics("raw_screenshots/redash_new_query_select_data_source2.png")
+```
+
+
+```{r, echo = FALSE, fig.align='center', out.width='90%'}
+knitr::include_graphics("raw_screenshots/redash_new_query_select_data_source3.png")
+```
+
+
+```{r, echo = FALSE, fig.align='center', out.width='90%'}
+knitr::include_graphics("raw_screenshots/redash_new_query_select_data_source4.png")
+```
+
+
+```{r, echo = FALSE, fig.align='center', out.width='90%'}
+knitr::include_graphics("raw_screenshots/redash_new_query2_select_data_source1.png")
+```
+
+
+```{r, echo = FALSE, fig.align='center', out.width='90%'}
+knitr::include_graphics("raw_screenshots/redash_new_query2_select_data_source2.png")
+```
+
+
+```{r, echo = FALSE, fig.align='center', out.width='90%'}
+knitr::include_graphics("raw_screenshots/redash_new_query2_select_data_source3.png")
+```
+
+
+```{r, echo = FALSE, fig.align='center', out.width='90%'}
+knitr::include_graphics("raw_screenshots/redash_new_query2_select_data_source4.png")
+```
