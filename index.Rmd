@@ -86,34 +86,38 @@ knitr::include_graphics("images/150_redash_new_query_select_data_source3.png")
 
 # Create the visualisation query
 
-## Create a new query
-
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/160_redash_new_query_select_data_source4.png")
+knitr::include_graphics("images/160_redash_new_query_select_data_source4.png")
 ```
 
-## Give it a name
-
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/170_redash_new_query2_select_data_source1.png")
+knitr::include_graphics("images/170_redash_new_query2_select_data_source1.png")
 ```
 
-## Select the "Query" data source created earlier
-
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/180_redash_new_query2_select_data_source2.png")
+knitr::include_graphics("images/180_redash_new_query2_select_data_source2.png")
 ```
 
-## Add the SQL for extracting the information you want
-
-Take special notice of line **2** of the SQL in the screenshot.  It says `FROM query_1`.  The
-number `1` on the end of `query_1` is the number of the saved query you generated in the
-previous step.  So, if the number in the previous step for you was (say) 234, your query will
-need a `FROM` clause saying `FROM query_234`.
-
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/190_redash_new_query2_select_data_source3.png")
+knitr::include_graphics("images/190_redash_new_query2_select_data_source3.png")
 ```
+
+The SQL in the above screenshot is:
+
+```
+SELECT
+    substr(Date, 7, 4) || '-' || substr(Date, 4, 2) || '-' || substr(Date, 1, 2) as Date,
+    Category,
+    sum(distinct Number) as SumVal
+FROM query_1
+GROUP BY 1, 2;
+```
+
+Take special care of the FROM clause: `FROM query_1`.  The number `1` in `query_1`
+is the query # you saved before.
+
+So, if the number of the query you saved in the previous step was 234, your SQL
+query will need a `FROM` clause of `FROM query_234`.
 
 ## Click Execute, which should then retrieve and display your raw data in the table below
 
