@@ -65,7 +65,7 @@
      id="namedview15769"
      showgrid="false"
      inkscape:zoom="1"
-     inkscape:cx="569"
+     inkscape:cx="403.5"
      inkscape:cy="400.5"
      inkscape:window-x="0"
      inkscape:window-y="-3"
@@ -90,29 +90,33 @@
      ry="13.826355" />
   <g
      id="g11048">
-    <rect
-       style="fill:#ffffff;stroke:#0000ff;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       ry="19.252075"
-       y="450.23193"
-       x="153.46881"
-       height="75.07093"
-       width="566.36908"
-       id="rect3728-2-9" />
-    <text
-       inkscape:transform-center-y="-4"
-       inkscape:transform-center-x="12"
-       id="text4555-1-4"
-       y="496.47052"
-       x="436.16116"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
-       xml:space="preserve"><tspan
-         id="tspan11411-6"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
-         y="496.47052"
-         x="436.16116"
-         sodipodi:role="line">1. Click on <tspan
-   style="font-weight:bold"
-   id="tspan16365">Copy Link Location</tspan></tspan></text>
+    <g
+       id="g38390"
+       transform="translate(22,3)">
+      <rect
+         id="rect3728-2-9"
+         width="520.36908"
+         height="76.070923"
+         x="180.46881"
+         y="448.23193"
+         ry="19.252075"
+         style="fill:#ffffff;stroke:#0000ff;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+         x="441.02054"
+         y="494.97052"
+         id="text4555-1-4"
+         inkscape:transform-center-x="12"
+         inkscape:transform-center-y="-4"><tspan
+           sodipodi:role="line"
+           x="441.02054"
+           y="494.97052"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+           id="tspan11411-6">Click on <tspan
+   id="tspan16365"
+   style="font-weight:bold">Copy Link Location</tspan></tspan></text>
+    </g>
   </g>
   <path
      style="fill:none;stroke:#ff6600;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM)"
@@ -121,14 +125,15 @@
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <g
-     id="g11054">
+     id="g38406"
+     transform="translate(5.8721008,9)">
     <rect
        style="fill:#ffffff;stroke:#0000ff;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        ry="21.306213"
-       y="605.80493"
-       x="228.43715"
-       height="127.39003"
-       width="455.6882"
+       y="604.80493"
+       x="260.43713"
+       height="124.39001"
+       width="392.68823"
        id="rect3728-2-9-5" />
     <text
        inkscape:transform-center-y="-4"
@@ -142,7 +147,7 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
          y="653.32806"
          x="456.67969"
-         sodipodi:role="line">2. This places the JSON</tspan><tspan
+         sodipodi:role="line">This places the JSON</tspan><tspan
          id="tspan18133"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
          y="703.32806"

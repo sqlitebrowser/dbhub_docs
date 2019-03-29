@@ -18,7 +18,7 @@ knitr::include_graphics("images/010_dbhub_source_database2.png")
 knitr::include_graphics("images/020_dbhub_source_database3.png")
 ```
 
-# Login to Redash, head to the Data Sources Settings
+# In Redash, open Data Sources Settings
 
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
 knitr::include_graphics("images/030_redash_welcome_page1.png")
@@ -34,88 +34,63 @@ knitr::include_graphics("images/040_redash_welcome_page2.png")
 knitr::include_graphics("images/050_redash_new_data_source0.png")
 ```
 
-## Choose the "URL" data source type
-
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/060_redash_new_data_source1.png")
-```
-
-```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/070_redash_new_data_source2.png")
+knitr::include_graphics("images/070_redash_new_data_source2.png")
 ```
 
 # Fill out the details for the data source
 
-## Give the data source a name, and paste in the URL for it
-
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/080_redash_new_data_source_url1.png")
+knitr::include_graphics("images/080_redash_new_data_source_url1.png")
 ```
 
-## Click Save, then head back to the main Data Source Settings section
-
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/090_redash_new_data_source_url2.png")
+knitr::include_graphics("images/090_redash_new_data_source_url2.png")
 ```
 
 # Create another new Data Source
 
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/100_redash_data_sources2.png")
+knitr::include_graphics("images/100_redash_data_sources2.png")
 ```
 
-## This time, choose the "Query" data source type
-
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/070_redash_new_data_source2.png")
+knitr::include_graphics("images/105_redash_new_data_source2b.png")
 ```
 
-## This one just needs a name so you can refer to it later.  Choose something obvious.
-
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/110_redash_new_data_source_query_mapper1.png")
+knitr::include_graphics("images/110_redash_new_data_source_query_mapper1.png")
 ```
 
-## Click Save, then create a new "Query"
-
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/120_redash_new_data_source_query_mapper2.png")
+knitr::include_graphics("images/120_redash_new_data_source_query_mapper2.png")
 ```
 
 # Create the Source query
 
-This query just retrieves the data from the URL data source you set up earlier.
-
-## Give it an (obvious) name
-
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/130_redash_new_query_select_data_source1.png")
+knitr::include_graphics("images/125_redash_new_query_select_data_source0.png")
 ```
 
-## Select the URL data source you created earlier.  Not the "Query" one.
-
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/140_redash_new_query_select_data_source2.png")
+knitr::include_graphics("images/130_redash_new_query_select_data_source1.png")
 ```
 
-## Save the query
-
-After the Save button is clicked, the address for this query should change in your browser
-to include a number.
-
-Make a note of this number, as we'll be using it in the next step.
+```{r, echo = FALSE, fig.align='center', out.width='90%'}
+knitr::include_graphics("images/140_redash_new_query_select_data_source2.png")
+```
 
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/150_redash_new_query_select_data_source3.png")
+knitr::include_graphics("images/150_redash_new_query_select_data_source3.png")
 ```
+
+# Create the visualisation query
 
 ## Create a new query
 
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
 knitr::include_graphics("raw_screenshots/160_redash_new_query_select_data_source4.png")
 ```
-
-# Create the visualisation query
 
 ## Give it a name
 
