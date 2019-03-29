@@ -83,16 +83,16 @@
   <rect
      style="fill:none;stroke:#167517;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      id="rect4575-8-9-0"
-     width="348.42206"
-     height="45.577057"
-     x="787.99939"
+     width="339.422"
+     height="45.577026"
+     x="794.99939"
      y="627.39282"
-     ry="7.8263626" />
+     ry="13.826355" />
   <g
-     id="g19371">
+     id="g11048">
     <rect
        style="fill:#ffffff;stroke:#0000ff;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       ry="7.2520633"
+       ry="19.252075"
        y="450.23193"
        x="153.46881"
        height="75.07093"
@@ -121,12 +121,11 @@
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <g
-     id="g19547"
-     transform="translate(0,-20)">
+     id="g11054">
     <rect
        style="fill:#ffffff;stroke:#0000ff;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       ry="12.306235"
-       y="625.80493"
+       ry="21.306213"
+       y="605.80493"
        x="228.43715"
        height="127.39003"
        width="455.6882"
@@ -135,18 +134,18 @@
        inkscape:transform-center-y="-4"
        inkscape:transform-center-x="12"
        id="text4555-1-4-5"
-       y="673.32806"
+       y="653.32806"
        x="456.67969"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
        xml:space="preserve"><tspan
          id="tspan11411-6-7"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
-         y="673.32806"
+         y="653.32806"
          x="456.67969"
          sodipodi:role="line">2. This places the JSON</tspan><tspan
          id="tspan18133"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
-         y="723.32806"
+         y="703.32806"
          x="456.67969"
          sodipodi:role="line">URL on the clipboard</tspan></text>
   </g>

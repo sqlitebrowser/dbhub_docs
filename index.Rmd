@@ -21,17 +21,17 @@ knitr::include_graphics("images/020_dbhub_source_database3.png")
 # Login to Redash, head to the Data Sources Settings
 
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/030_redash_welcome_page1.png")
+knitr::include_graphics("images/030_redash_welcome_page1.png")
 ```
 
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/040_redash_welcome_page2.png")
+knitr::include_graphics("images/040_redash_welcome_page2.png")
 ```
 
 # Create a new Data Source
 
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/050_redash_new_data_source0.png")
+knitr::include_graphics("images/050_redash_new_data_source0.png")
 ```
 
 ## Choose the "URL" data source type

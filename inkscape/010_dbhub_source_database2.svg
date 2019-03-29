@@ -65,7 +65,7 @@
      id="namedview5404"
      showgrid="false"
      inkscape:zoom="1"
-     inkscape:cx="560.61966"
+     inkscape:cx="395.11966"
      inkscape:cy="402"
      inkscape:window-x="0"
      inkscape:window-y="-3"
@@ -81,10 +81,10 @@
      x="0"
      y="0" />
   <g
-     id="g19460">
+     id="g12243">
     <rect
        style="fill:#ffffff;stroke:#0000ff;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       ry="13.729592"
+       ry="23.729599"
        y="199.93793"
        x="297.9743"
        height="142.12416"
@@ -110,10 +110,10 @@
          sodipodi:role="line">for the database will appear</tspan></text>
   </g>
   <g
-     id="g19478">
+     id="g12233">
     <rect
        style="fill:#ffffff;stroke:#0000ff;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       ry="26.109798"
+       ry="26.109802"
        y="390.01672"
        x="201.55197"
        height="270.27994"
@@ -162,7 +162,7 @@
      height="34.79668"
      x="827.04114"
      y="469.25894"
-     ry="5.9751873" />
+     ry="10.975189" />
   <path
      style="fill:none;stroke:#ff6600;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleOutM)"
      d="m 615.15095,522.57303 c 30,-34 155.39182,-50.84118 214.39182,-42.84118"
