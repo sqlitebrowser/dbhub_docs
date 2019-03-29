@@ -119,8 +119,10 @@ is the query # you saved before.
 So, if the number of the query you saved in the previous step was 234, your SQL
 query will need a `FROM` clause of `FROM query_234`.
 
-## Click Execute, which should then retrieve and display your raw data in the table below
+```{r, echo = FALSE, fig.align='center', out.width='90%'}
+knitr::include_graphics("images/200_redash_new_query2_select_data_source4.png")
+```
 
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("raw_screenshots/200_redash_new_query2_select_data_source4.png")
+knitr::include_graphics("images/210_redash_new_query2_select_data_source5.png")
 ```
