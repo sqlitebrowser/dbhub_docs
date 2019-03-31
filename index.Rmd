@@ -55,7 +55,7 @@ knitr::include_graphics("images/100_redash_data_sources2.png")
 ```
 
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
-knitr::include_graphics("images/105_redash_new_data_source2b.png")
+knitr::include_graphics("images/105_redash_new_data_source2.png")
 ```
 
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
