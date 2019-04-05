@@ -2,7 +2,7 @@
 title: "How to use the URL data source"
 ---
 
-# Get the URL of your JSON data
+# Determine the URL of your JSON data
 
 For this example, we're using the [NICVA Marine Litter Survey](https://dbhub.io/nicva/Marine%20Litter%20Survey%20(Keep%20Northern%20Ireland%20Beautiful).sqlite) database.
 
@@ -78,6 +78,10 @@ knitr::include_graphics("images/130_redash_new_query_select_data_source1.png")
 
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
 knitr::include_graphics("images/140_redash_new_query_select_data_source2.png")
+```
+
+```{r, echo = FALSE, fig.align='center', out.width='90%'}
+knitr::include_graphics("images/145_redash_new_query_select_data_source2b.png")
 ```
 
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
