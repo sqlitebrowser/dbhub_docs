@@ -130,3 +130,19 @@ knitr::include_graphics("images/200_redash_new_query2_select_data_source4.png")
 ```{r, echo = FALSE, fig.align='center', out.width='90%'}
 knitr::include_graphics("images/210_redash_new_query2_select_data_source5.png")
 ```
+
+<!-- Fathom - simple website analytics - https://github.com/usefathom/fathom -->
+<script>
+(function(f, a, t, h, o, m){
+	a[h]=a[h]||function(){
+		(a[h].q=a[h].q||[]).push(arguments)
+	};
+	o=f.createElement('script'),
+	m=f.getElementsByTagName('script')[0];
+	o.async=1; o.src=t; o.id='fathom-script';
+	m.parentNode.insertBefore(o,m)
+})(document, window, '//stats.sqlitebrowser.org/tracker.js', 'fathom');
+fathom('set', 'siteId', 'MBTSF');
+fathom('trackPageview');
+</script>
+<!-- / Fathom -->
